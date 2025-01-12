@@ -1,4 +1,32 @@
----
-title: Welcome to my blog
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <!-- Página inicial -->
+    <h1>Para Ti <span class="heart">💖</span></h1>
+    
+    <div id="text1" class="hidden-text">
+        <p id="textContent1"></p>
+        <button id="button1" class="button" onclick="showMoreText()">Seguir Leyendo...</button>
+    </div>
+
+    <div id="text2" class="hidden-text">
+        <p id="textContent2"></p>
+        <p id="textContent3"></p>
+        <button id="button2" class="button" onclick="showFinalText()">Continuar...</button>
+    </div>
+
+    <div id="text3" class="hidden-text">
+        <p id="textContent4"></p>
+        <button id="button3" class="button" onclick="goToQuestion()">Ir a la Pregunta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
